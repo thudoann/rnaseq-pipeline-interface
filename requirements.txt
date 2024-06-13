@@ -1,0 +1,9 @@
+streamlit
+pandas
+numpy
+requests
+subprocess.run
+shutil
+os
+sys
+gzip
