@@ -8,11 +8,11 @@ logging.basicConfig(level=logging.DEBUG)
 
 
 def send_email(subject, body, to_email):
-    from_email = 'rnaseq.pipeline@gmail.com'
+    from_email = ''
     smtp_server = 'smtp.gmail.com'
-    smtp_user = 'rnaseq.pipeline@gmail.com'
+    smtp_user = ''
     smtp_port = 587
-    smtp_password = 'lwyhliurwyclqxpn'
+    smtp_password = ''
 
     msg = MIMEText(body)
     msg['Subject'] = subject
